@@ -51,9 +51,9 @@ export const LivePage = () => {
     </div>
     </div>
  <Appbar>
- <Button onClick={selectFunc}><FontAwesomeIcon icon={faSquare} size="2xl" style={{color: "#fffafb",}} /></Button>
+ <Button onClick={selectFunc}><img src={img} alt="grid" height={"25px"} width={"25px"} /></Button>
  <Button onClick={selectFunc1}><FontAwesomeIcon icon={faThLarge} size="2xl" style={{color: "#fffafb",}} /></Button>
- <Button onClick={selectFunc2}><img src={img} alt="grid" height={"25px"} width={"25px"} /></Button>
+ <Button onClick={selectFunc2}><FontAwesomeIcon icon={faSquare} size="2xl" style={{color: "#fffafb",}} /></Button>
 </Appbar>
 </>
   )
