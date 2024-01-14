@@ -1,39 +1,39 @@
-.color{
+.LivePage_color{
     background-color: rgb(220, 190, 249);
     z-index: 2;
 }
- span{
+.LivePage_span{
     color: rgb(11, 11, 11);
 }
 #open
 {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(57, 52, 52);
 }
-.flex{
+.LivePage_flex{
     display:flex;
     padding:0 10px;
     border-bottom: 1px solid rgb(64, 58, 58);
     justify-content: space-between;
 }
-.outer_div{
+.LivePage_outer_div{
     border-bottom: 1px solid rgb(57, 52, 52);
     
 }
-.inner_div{
+.LivePage_inner_div{
     background-color: aliceblue;
     border-radius: 8px;
     margin:10px 30px;
 
 }
-.info {
+.LivePage_info {
     padding: 10px;
 }
-.info1 {
+.LivePage_info1 {
     padding: 10px;
     color: rgb(178, 7, 7);
     font-weight: 500;
 }
-.title{
+.LivePage_title{
     margin: 10px 20px;
 }
