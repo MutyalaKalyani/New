@@ -64,8 +64,8 @@ export const LivePage = () => {
     <>
       <Grid container lg={12}>
         <Grid item lg={8.8} md={9} xm={8}>
-          <div id="one" style={SmallerContainer}>
-            <Grid container style={style} spacing={2}>
+          <div id="one" style={LivePage_SmallerContainer}>
+            <Grid container style={LivePage_style} spacing={2}>
               {data.map((item, index) => (
                 <Grid item key={index}>
                   <ReactPlayer
@@ -77,8 +77,8 @@ export const LivePage = () => {
               ))}
             </Grid>
           </div>
-          <div id="four" style={SmallerContainer1}>
-            <Grid container style={style1} spacing={4} lg={10} md={12}>
+          <div id="four" style={LivePage_SmallerContainer1}>
+            <Grid container style={LivePage_style1} spacing={4} lg={10} md={12}>
               {data.slice(0, 4).map((item, index) => (
                 <Grid item key={index}>
                   <ReactPlayer
@@ -90,18 +90,18 @@ export const LivePage = () => {
               ))}
             </Grid>
           </div>
-          <div id="nine" style={SmallerContainer2}>
-            <Grid container style={style} spacing={1}>
-              <Grid item style={style2}>
+          <div id="nine" style={LivePage_SmallerContainer2}>
+            <Grid container style={LivePage_style} spacing={1}>
+              <Grid item style={LivePage_style2}>
                 <ReactPlayer url="https://youtu.be/YRBmZIDqSrc?feature=shared" />
               </Grid>
             </Grid>
           </div>
         </Grid>
         <Grid item lg={3.2} md={3} xm={4}>
-          <div className="color">
+          <div className="LivePage_color">
             <Button>
-              <span>
+              <span className="LivePage_span">
                 <FontAwesomeIcon icon={faCaretDown} size="xl" />
                 Group1
               </span>
@@ -132,47 +132,47 @@ export const LivePage = () => {
                 <span> CAM6 </span>
               </div>
             </div>
-            <div className="outer_div">
-              <h4 className="title">Transcriptions</h4>
-              <div className="inner_div">
-                <div className="flex">
+            <div className="LivePage_outer_div">
+              <h4 className="LivePage_title">Transcriptions</h4>
+              <div className="LivePage_inner_div">
+                <div className="LivePage_flex">
                   <h5>CAM1</h5>
                   <h5>02:50PM</h5>
                 </div>
-                <div className="info">
+                <div className="LivePage_info">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Itaque saepe dicta fugiat amet minus incidunt quos,{" "}
                 </div>
               </div>
-              <div className="inner_div">
-                <div className="flex">
+              <div className="LivePage_inner_div">
+                <div className="LivePage_flex">
                   <h5>CAM5</h5>
                   <h5>02:50PM</h5>
                 </div>
-                <div className="info">
+                <div className="LivePage_info">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Itaque saepe dicta fugiat amet minus incidunt quos,
                 </div>
               </div>
             </div>
-            <div className="outer_div">
-              <h4 className="title">Unusual Activity</h4>
-              <div className="inner_div">
-                <div className="flex">
+            <div className="LivePage_outer_div">
+              <h4 className="LivePage_title">Unusual Activity</h4>
+              <div className="LivePage_inner_div">
+                <div className="LivePage_flex">
                   <h5>CAM1</h5>
                   <h5>02:50PM</h5>
                 </div>
-                <div className="info1">
+                <div className="LivePage_info1">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Itaque saepe dicta fugiat amet minus incidunt quos,{" "}
                 </div>
               </div>
-              <div className="inner_div">
-                <div className="flex">
+              <div className="LivePage_inner_div">
+                <div className="LivePage_flex">
                   <h5>CAM5</h5>
                   <h5>02:50PM</h5>
                 </div>
-                <div className="info1">
+                <div className="LivePage_info1">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Itaque saepe dicta fugiat amet minus incidunt quos,
                 </div>
@@ -211,40 +211,40 @@ let Appbar = styled(Box)`
   width: 71%;
   padding: 10px 20px;
 `;
-let style = {
+let LivePage_style = {
   listStyleType: "none",
   display: "flex",
   padding: 0,
 };
-let style1 = {
+let LivePage_style1 = {
   listStyleType: "none",
   display: "flex",
   padding: 0,
   margin: "auto",
 };
-let style2 = {
+let LivePage_style2 = {
   margin: " auto",
   marginTop: "50px",
 };
 
-let style4 = {
+let LivePage_style4 = {
   border: "none",
   background: "transparent",
   padding: "10px",
 };
-const SmallerContainer = {
+const LivePage_SmallerContainer = {
   position: "relative",
   top: "40px",
   margin: "auto 30px",
 };
-const SmallerContainer1 = {
+const LivePage_SmallerContainer1 = {
   position: "relative",
   top: "40px",
   display: "none",
   margin: " 30px auto",
 };
 
-const SmallerContainer2 = {
+const LivePage_SmallerContainer2 = {
   position: "relative",
   top: "40px",
   display: "none",
