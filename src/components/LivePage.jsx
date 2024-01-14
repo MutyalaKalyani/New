@@ -44,7 +44,7 @@ export const LivePage = () => {
 
     </div>
       <div id="nine" style={SmallerContainer2}  >
-      <Grid container style={style} spacing={1} lg={10} md={10} xm={10}>
+      <Grid container style={style} spacing={1} lg={10} md={8} xm={8}>
         <Grid item  style={style2}><ReactPlayer url="https://youtu.be/YRBmZIDqSrc?feature=shared"/></Grid>
       </Grid>
 
